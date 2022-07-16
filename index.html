@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock-In!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<!--Stopwatch-->
+    <div class="timer-container">
+        <h1 id="stopwatch">00:00:00</h1>
+    </div>
+<!--buttons--> 
+    <div class="btn-container">
+        <button id="start-time">Start</button>
+        <button id="pause-time">Pause</button>
+        <button id="stop-time">Stop</button>    
+    </div>
+<!--Agenda Start, Notes, Agenda End-->
+    <div>
+        <h2 class="agenda-title">Today's Agenda<h2>
+        <textarea rows="2" column="50" type="text" id="agenda-start"></textarea>
+    </div>
+    <div>
+        <h2 class="agenda-title">Notes<h2>
+        <textarea rows="10" column="50" type="text" id="agenda-notes"></textarea>
+    </div>
+<!--reset-->
+    <div>
+        <button id="reset-el">Reset</button>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

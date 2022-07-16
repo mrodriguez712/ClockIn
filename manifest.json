@@ -1,0 +1,12 @@
+{
+    "name": "Clock-In!",
+    "description": "A note taking extension, with agenda list and a stopwatch to see how far you did for the day",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
